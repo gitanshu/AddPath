@@ -9,7 +9,7 @@ namespace AddPath
 
         public bool Parse(string[] args)
         {
-            Target = EnvironmentVariableTarget.Machine;
+            Target = EnvironmentVariableTarget.User;
 
             foreach (string arg in args)
             {
